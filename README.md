@@ -3,7 +3,7 @@
   <a href="https://portfolio-cyc-iota.vercel.app/" target="_blank">Carla Yamila Colom</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/home.png" />
+  <img alt="Demo" src="./src/Assets/portfolio.image.png" />
 </div>
 
 <br/>
