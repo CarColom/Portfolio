@@ -1,37 +1,37 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { useTranslation } from 'react-i18next';
 
 function AboutCard() {
-  return (
+  const { t } = useTranslation();
+
+return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Carla Yamila Colom </span>
-            from <span className="purple"> Roldán, Sta Fe, Argentina</span>
-            <br />Graduated in Analyst Programmer and a Full Stack Developer.
+            {t('aboutCard.intro')}
+            <br />{t('aboutCard.education')}
             <br />
-            My passion for programming is coupled with a keen interest in tackling challenges and creating innovative solutions.
+            {t('aboutCard.passion')}
             <br />
-            <br /> I am currently seeking my first job in the technology field, aiming to join a place where I can expand my knowledge, acquire new skills, and enhance the ones I already possess. I'm a quick learner and will readily adapt to new technologies.
+            <br />{t('aboutCard.jobSeeking')}
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            {t('aboutCard.activities')}
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Crafts and design
+              <ImPointRight /> {t('aboutCard.crafts')}
             </li>
             <li className="about-activity">
-              <ImPointRight /> To cook
+              <ImPointRight /> {t('aboutCard.cooking')}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> {t('aboutCard.traveling')}
             </li>
           </ul>
-
-          
         </blockquote>
       </Card.Body>
     </Card>

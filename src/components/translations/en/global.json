@@ -1,0 +1,51 @@
+{
+    "about.title": "Know Who I'M",
+    "about.technicalSkills": "Technical Skills",
+
+    "type.fullStackDeveloper": "Full Stack Developer",
+  "type.freelancer": "Freelancer",
+
+    "aboutCard.intro": "Hi Everyone, I am Carla Yamila Colom from Roldán, Santa Fe, Argentina",
+  "aboutCard.education": "Graduated in Analyst Programmer and a Full Stack Developer.",
+  "aboutCard.passion": "My passion for programming is coupled with a keen interest in tackling challenges and creating innovative solutions.",
+  "aboutCard.jobSeeking": "I am currently seeking my first job in the technology field, aiming to join a place where I can expand my knowledge, acquire new skills, and enhance the ones I already possess. I'm a quick learner and will readily adapt to new technologies.",
+  "aboutCard.activities": "Apart from coding, some other activities that I love to do!",
+  "aboutCard.crafts": "Crafts and design",
+  "aboutCard.cooking": "Cooking",
+  "aboutCard.traveling": "Traveling",
+
+  "github.daysICode": "Days I ",
+  "github.Code":" Code",
+
+  "home.greeting": "Hi there! ",
+  "home.fullName": "I'M",
+
+  "home2.introduceMyself": "LET ME INTRODUCE MYSELF",
+  "home2.developerSkills": "As a passionate Full Stack Developer, I have focused on web development and have acquired skills in",
+  "home2.goal": "My goal is to join a dynamic, results-oriented team to apply my knowledge in a practical environment. I am open to new opportunities and excited to continue learning and growing.",
+  "home2.openToOpportunities": "I am open to new opportunities and excited to continue learning and growing.",
+  "home2.findMeOn": "FIND ME ON",
+  "home2.connectWithMe": "Feel free to connect with me",
+
+  "projects.myRecentWorks": "My Recent Works",
+  "projects.projectsDescription": "Here are a few projects I've worked.",
+  "projects.rickAndMortyTitle": "Rick and Morty",
+  "projects.rickAndMortyDescription": "This is an initial project I carried out in the Henry Bootcamp, involving development of both the Front-End and Back-End. It includes pagination, styling, adding to favorites, creation, display, and deletion of content cards, routing, user creation, and CRUD (Create, Read, Update, Delete) requests, as well as the development of a relational database. The technologies used were Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js, and JavaScript.",
+  "projects.dogTitle": "Dog",
+  "projects.dogDescription": "This is an individual project I carried out in the Henry Bootcamp, involving development of both the Front-End and Back-End. It includes pagination, filters, sorting, creation of new dogs, display, and deletion of content cards, routing, styling, and the development of a relational database. The technologies used were Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js, and JavaScript.",
+  "projects.pokemonWorldTitle": "Pokémon World",
+  "projects.pokemonWorldDescription": "This is an individual project I carried out in the Henry Bootcamp, involving development of both the Front-End and Back-End. It includes pagination, filters, sorting, creation of new dogs, display, and deletion of content cards, routing, styling, and the development of a relational database. The technologies used were Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js, and JavaScript.",
+  "projects.ecoWiseTitle": "ecoWise",
+  "projects.ecoWiseDescription": "This is a group project that we carried out in the Henry Bootcamp, where we developed an e-commerce platform offering sustainable products, from conception to implementation. The project encompassed design aspects, frontend and backend development, including integrated third-party authentication, payment gateway (Mercado Pago), combined filters, Cloudinary, local storage, reviews, favorites, email notifications, soft deletion, creation of new products, admin dashboard, display of content cards, routing, and the development of a relational database. This way, we created an attractive and user-friendly interface that highlights sustainability values. The technologies used were Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js, Vite, JavaScript, HTML, CSS, Tailwind, and Bootstrap.",
+
+  "resume.downloadCV": "Download CV",
+
+  "navbar.home": "Home",
+  "navbar.about": "About",
+  "navbar.projects": "Projects",
+  "navbar.resume": "Resume",
+  "navbar.downloadCV": "Download CV"
+
+   
+  }
+  

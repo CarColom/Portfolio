@@ -16,7 +16,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CursorEffect from "./components/Cursor"
+import CursorEffect from "./components/Cursor";
+import { I18nextProvider } from 'react-i18next'; 
+import i18n from './i18n';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -30,23 +32,24 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      
-      <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-      <CursorEffect />
-        <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <I18nextProvider i18n={i18n}> 
+      <Router>
+        <Preloader load={load} />
+        <div className="App" id={load ? "no-scroll" : "scroll"}>
+          <CursorEffect />
+          <Navbar />
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/project" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </I18nextProvider>
   );
 }
 

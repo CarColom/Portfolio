@@ -6,40 +6,41 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useTranslation } from 'react-i18next'; // Importa useTranslation
 
 function Home2() {
+  const { t } = useTranslation(); // Inicializa useTranslation
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              {t('home2.introduceMyself')}
             </h1>
             <p className="home-about-body">
-            As a passionate Full Stack Developer, I have focused on web development and have acquired skills in
+              {t('home2.developerSkills')}
               <br />
               <i>
-                <b className="purple">  JavaScript, CSS, Tailwind, HTML, React-Redux, Vite, Node.js, Express, Sequelize y PostgreSQL </b>
+                <b className="purple">JavaScript, CSS, Tailwind, HTML, React-Redux, Vite, Node.js, Express, Sequelize, y PostgreSQL</b>
               </i>
               <br />
               <br />
-              My goal is to join a dynamic, results-oriented team to apply my knowledge in a practical environment.
+              {t('home2.goal')}
               <i>
-                <p > I am open to new opportunities and excited to continue learning and growing.
-              
-                </p>
+                <p>{t('home2.openToOpportunities')}</p>
               </i>
               <br />
               <br />
-              </p>
+            </p>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>{t('home2.findMeOn')}</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              {t('home2.connectWithMe')}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

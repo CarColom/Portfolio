@@ -1,0 +1,49 @@
+{
+    "about.title": "Conoce quién SOY",
+    "about.technicalSkills": "Habilidades Técnicas",
+
+    "type.fullStackDeveloper": "Desarrollador Full Stack",
+    "type.freelancer": "Freelancer",
+
+    "aboutCard.intro": "¡Hola a todos! Soy Carla Yamila Colom de Roldán, Santa Fe, Argentina",
+    "aboutCard.education": "Graduada en Analista Programador y Desarrolladora Full Stack.",
+    "aboutCard.passion": "Mi pasión por la programación se combina con un gran interés en abordar desafíos y crear soluciones innovadoras.",
+    "aboutCard.jobSeeking": "Actualmente estoy buscando mi primer trabajo en el campo de la tecnología, con el objetivo de unirme a un lugar donde pueda expandir mis conocimientos, adquirir nuevas habilidades y mejorar las que ya poseo. Soy una aprendiz rápida y me adaptaré fácilmente a las nuevas tecnologías.",
+    "aboutCard.activities": "Aparte de programar, ¡algunas otras actividades que me encanta hacer!",
+    "aboutCard.crafts": "Manualidades y diseño",
+    "aboutCard.cooking": "Cocinar",
+    "aboutCard.traveling": "Viajar",
+
+    "github.daysICode": "Días en los que",
+    "github.Code":" Programo",
+
+    "home.greeting": "¡Hola! ",
+    "home.fullName": "Soy",
+
+    "home2.introduceMyself": "PERMÍTANME PRESENTARME",
+    "home2.developerSkills": "Como apasionada Desarrolladora Full Stack, me he centrado en el desarrollo web y he adquirido habilidades en",
+    "home2.goal": "Mi objetivo es unirme a un equipo dinámico y orientado a resultados para aplicar mis conocimientos en un entorno práctico. Estoy abierta a nuevas oportunidades y emocionada por seguir aprendiendo y creciendo.",
+    "home2.openToOpportunities": "Estoy abierta a nuevas oportunidades y emocionada por seguir aprendiendo y creciendo.",
+    "home2.findMeOn": "ENCUÉNTRAME EN",
+    "home2.connectWithMe": "Siéntete libre de conectarte conmigo",
+
+    "projects.myRecentWorks": "Mis Trabajos Recientes",
+  "projects.projectsDescription": "Aquí tienes algunos proyectos en los que he trabajado.",
+  "projects.rickAndMortyTitle": "Rick and Morty",
+  "projects.rickAndMortyDescription": "Este es un proyecto inicial que realicé en el Bootcamp de Henry, que involucra desarrollo tanto de Front-End como de Back-End. Incluye paginación, estilo, agregar a favoritos, creación, visualización y eliminación de tarjetas de contenido, enrutamiento, creación de usuarios y solicitudes CRUD (Crear, Leer, Actualizar, Eliminar), así como el desarrollo de una base de datos relacional. Las tecnologías utilizadas fueron Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js y JavaScript.",
+  "projects.dogTitle": "Dog",
+  "projects.dogDescription": "Este es un proyecto individual que realicé en el Bootcamp de Henry, que involucra desarrollo tanto de Front-End como de Back-End. Incluye paginación, filtros, clasificación, creación de nuevos perros, visualización y eliminación de tarjetas de contenido, enrutamiento, estilo y el desarrollo de una base de datos relacional. Las tecnologías utilizadas fueron Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js y JavaScript.",
+  "projects.pokemonWorldTitle": "Mundo Pokémon",
+  "projects.pokemonWorldDescription": "Este es un proyecto individual que realicé en el Bootcamp de Henry, que involucra desarrollo tanto de Front-End como de Back-End. Incluye paginación, filtros, clasificación, creación de nuevos perros, visualización y eliminación de tarjetas de contenido, enrutamiento, estilo y el desarrollo de una base de datos relacional. Las tecnologías utilizadas fueron Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js y JavaScript.",
+  "projects.ecoWiseTitle": "ecoWise",
+  "projects.ecoWiseDescription": "Este es un proyecto de grupo que realizamos en el Bootcamp de Henry, donde desarrollamos una plataforma de comercio electrónico que ofrece productos sostenibles, desde la concepción hasta la implementación. El proyecto abarcó aspectos de diseño, desarrollo Front-End y Back-End, incluyendo autenticación de terceros integrada, pasarela de pago (Mercado Pago), filtros combinados, Cloudinary, almacenamiento local, reseñas, favoritos, notificaciones por correo electrónico, eliminación suave, creación de nuevos productos, panel de administración, visualización de tarjetas de contenido, enrutamiento y el desarrollo de una base de datos relacional. De esta manera, creamos una interfaz atractiva y fácil de usar que destaca los valores de sostenibilidad. Las tecnologías utilizadas fueron Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js, Vite, JavaScript, HTML, CSS, Tailwind y Bootstrap.",
+
+  "resume.downloadCV": "Descargar CV",
+
+  "navbar.home": "Inicio",
+  "navbar.about": "Acerca de",
+  "navbar.projects": "Proyectos",
+  "navbar.resume": "Currículum",
+  "navbar.downloadCV": "Descargar CV"
+  }
+  

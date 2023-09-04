@@ -125,7 +125,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #f82c81 !important;
+  background-color:#f82c81!important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -233,6 +233,39 @@ button:focus {
   width: 100%;
 }
 
+.navh1{
+  color:#f82c81;
+  font-size: 5 rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+.justify-content-end {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+.en-es {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: #f82c81;
+  margin-left: 10px; 
+  transition: all 0.3s ease;
+}
+
+.en-es:hover {
+  border-color: #f82c81; 
+  background-color: #f82c81; 
+  color: #fff; 
+}
+
+
+
+
+
 /* --------- */
 /* Home section */
 /* --------- */
@@ -309,17 +342,17 @@ button:focus {
 }
 
 .main-name {
-  color:#e911b3;
+  color:#f82c81;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #e911b3 !important;
+  color: #f82c81 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #e911b3 !important;
+  color: #f82c81 !important;
 }
 
 @media (max-width: 767px) {
@@ -400,7 +433,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background:#e911b3;
+  background:#f82c81;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -408,13 +441,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #e911b3;
+  box-shadow: 0 0 15px #f82c81;
 }
 
 .home-social-icons:hover {
-  color:#e911b3;
-  box-shadow: 0 0 5px #e911b3;
-  text-shadow: 0 0 2px #e911b3;
+  color:#f82c81;
+  box-shadow: 0 0 5px #f82c81;
+  text-shadow: 0 0 2px #f82c81;
 }
 
 .social-icons {
@@ -424,7 +457,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #e911b3 !important;
+  color: #f82c81 !important;
 }
 
 /* --------- */
@@ -735,7 +768,7 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #f82c81 !important;
+  background-color:#c70f99 !important;
   border-color: #660b31 !important;
 }
 .fork-btn-inner::after {

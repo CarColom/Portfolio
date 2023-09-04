@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from 'react-i18next';
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
-
 function About() {
+  const { t } = useTranslation(); 
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -22,7 +24,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              {t('about.title')}
             </h1>
             <Aboutcard />
           </Col>
@@ -35,11 +37,10 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-        Technical <strong className="purple">Skills </strong>
+          {t('about.technicalSkills')}
         </h1>
 
         <Techstack />
-
 
         <Github />
       </Container>
@@ -48,3 +49,4 @@ function About() {
 }
 
 export default About;
+
