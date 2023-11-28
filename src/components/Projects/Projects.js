@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Rick from "../../Assets/Projects/Rick.png";
+import AppCraft from "../../Assets/Projects/AppCraft.png";
 import Dog from "../../Assets/Projects/Dog.png";
 import Poke from "../../Assets/Projects/Poke.png";
 import Eco from "../../Assets/Projects/Eco (1).png";
@@ -25,12 +25,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Rick}
+              imgPath={AppCraft}
               isBlog={false}
-              title={t('projects.rickAndMortyTitle')}
-              description={t('projects.rickAndMortyDescription')}
-              ghLink="https://github.com/CarColom/Rick-and-Morty"
+              title={t('projects.AppCraftTitle')}
+              description={t('projects.AppCraftDescription')}
+              ghLink="https://github.com/CarColom/agencia_marketing"
               //demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Eco}
+              isBlog={false}
+              title={t('projects.ecoWiseTitle')}
+              description={t('projects.ecoWiseDescription')}
+              ghLink="https://github.com/CarColom"
+              demoLink="https://ecowise-web-site.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -53,16 +63,7 @@ function Projects() {
               //demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Eco}
-              isBlog={false}
-              title={t('projects.ecoWiseTitle')}
-              description={t('projects.ecoWiseDescription')}
-              ghLink="https://github.com/CarColom"
-              demoLink="https://ecowise-web-site.vercel.app/"
-            />
-          </Col>
+        
         </Row>
       </Container>
     </Container>

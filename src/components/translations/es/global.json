@@ -29,8 +29,8 @@
 
     "projects.myRecentWorks": "Mis Trabajos Recientes",
   "projects.projectsDescription": "Aquí tienes algunos proyectos en los que he trabajado.",
-  "projects.rickAndMortyTitle": "Rick and Morty",
-  "projects.rickAndMortyDescription": "Este es un proyecto inicial que realicé en el Bootcamp de Henry, que involucra desarrollo tanto de Front-End como de Back-End. Incluye paginación, estilo, agregar a favoritos, creación, visualización y eliminación de tarjetas de contenido, enrutamiento, creación de usuarios y solicitudes CRUD (Crear, Leer, Actualizar, Eliminar), así como el desarrollo de una base de datos relacional. Las tecnologías utilizadas fueron Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js y JavaScript.",
+  "projects.AppCraftTitle": "AppCraft Studio",
+  "projects.AppCraftDescription": "En mi papel como Full Stack Web Developer en <AppCraft Studio>, lidero el desarrollo de una aplicación web integral, destacando logros clave: Casos de Éxito y Servicios: Diseñé secciones impactantes para resaltar casos de éxito y servicios ofrecidos. Información Corporativa y Carreras: Una página Acerca de Nosotros y una sección de carreras, mejorando la conexión con visitantes y candidatos. Blog Dinámico y Contacto Intuitivo: Crearé un blog interactivo y optimizando la interfaz de contacto para mejorar la participación del usuario. Django • React.js • Redux.js  • JavaScript • Python •  HTML• CSS • Tailwind (En proceso).",
   "projects.dogTitle": "Dog",
   "projects.dogDescription": "Este es un proyecto individual que realicé en el Bootcamp de Henry, que involucra desarrollo tanto de Front-End como de Back-End. Incluye paginación, filtros, clasificación, creación de nuevos perros, visualización y eliminación de tarjetas de contenido, enrutamiento, estilo y el desarrollo de una base de datos relacional. Las tecnologías utilizadas fueron Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js y JavaScript.",
   "projects.pokemonWorldTitle": "Mundo Pokémon",
