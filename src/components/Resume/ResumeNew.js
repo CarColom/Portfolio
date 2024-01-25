@@ -6,8 +6,8 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { useTranslation } from 'react-i18next';
-import CV_EN from "../../pdfs/CV_CarlaYamilaColom_en.pdf"; 
-import CV_ES from "../../pdfs/CV_CarlaYamilaColom_es.pdf";
+import CV_EN from "../../pdfs/CV - CarlaYamilaColom_en.pdf"; 
+import CV_ES from "../../pdfs/CV - CarlaYamilaColom_es.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
