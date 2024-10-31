@@ -7,6 +7,7 @@ import Dog from "../../Assets/Projects/Dog.png";
 import Poke from "../../Assets/Projects/Poke.png";
 import Eco from "../../Assets/Projects/Eco (1).png";
 import Ecome from "../../Assets/Projects/ecommerce.png";
+import Futbol from "../../Assets/Projects/Futbol.png";
 import { useTranslation } from 'react-i18next'; // Importa useTranslation
 
 function Projects() {
@@ -24,6 +25,16 @@ function Projects() {
           {t('projects.projectsDescription')}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Futbol}
+              isBlog={false}
+              title={t('projects.FutbolTitle')}
+              description={t('projects.FutbolDescription')}
+              ghLink={"https://github.com/CarColom/PorftfolioFutbol"}
+              demoLink="https://portfolio-juanignaciocettou.vercel.app/"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Ecome}

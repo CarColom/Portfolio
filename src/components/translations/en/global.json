@@ -8,7 +8,7 @@
     "aboutCard.intro": "Hi Everyone, I am Carla Yamila Colom from Roldán, Santa Fe, Argentina",
   "aboutCard.education": "Graduated in Analyst Programmer and a Full Stack Developer.",
   "aboutCard.passion": "My passion for programming is coupled with a keen interest in tackling challenges and creating innovative solutions.",
-  "aboutCard.jobSeeking": "I am currently seeking my first job in the technology field, aiming to join a place where I can expand my knowledge, acquire new skills, and enhance the ones I already possess. I'm a quick learner and will readily adapt to new technologies.",
+  "aboutCard.jobSeeking": "I am currently working independently for UltimaDevs, but I am always looking for opportunities to expand my knowledge in new environments. I am a fast learner and adapt easily to new technologies, with a constant commitment to learning and professional growth.",
   "aboutCard.activities": "Apart from coding, some other activities that I love to do!",
   "aboutCard.crafts": "Crafts and design",
   "aboutCard.cooking": "Cooking",
@@ -39,7 +39,8 @@
   "projects.ecoWiseDescription": "This is a group project that we carried out in the Henry Bootcamp, where we developed an e-commerce platform offering sustainable products, from conception to implementation. The project encompassed design aspects, frontend and backend development, including integrated third-party authentication, payment gateway (Mercado Pago), combined filters, Cloudinary, local storage, reviews, favorites, email notifications, soft deletion, creation of new products, admin dashboard, display of content cards, routing, and the development of a relational database. This way, we created an attractive and user-friendly interface that highlights sustainability values. The technologies used were Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js, Vite, JavaScript, HTML, CSS, Tailwind, and Bootstrap.",
   "projects.EcomeTitle": "E-commerce",
   "projects.EcomeDescription": "The e-commerce platform allows users to register with their email. They can browse products organized into categories, view details such as name, description, price, and images, and add items to their shopping cart. It offers a secure payment process with integrated payment gateways. Users can manage their orders and receive shipping notifications. They have a profile where they can update their personal information, addresses, and payment methods. Users can also leave reviews and ratings for products. Administrators have access to a panel to manage products, orders, users, and perform sales analysis. The responsive design ensures an optimal experience on mobile devices and tablets, using React with Tailwind CSS for an attractive interface and Redux for smooth state management of the application.",
-
+  "projects.FutbolTitle": "Soccer Player Portfolio",
+  "projects.FutbolDescription": "I have developed a web portfolio using JavaScript, React, and Tailwind CSS. The site features up-to-date statistics, a skills showcase, a biographical profile, highlighted videos, and a photo gallery. This project offers a responsive design and an intuitive user experience.",
 
   "resume.downloadCV": "Download CV",
 

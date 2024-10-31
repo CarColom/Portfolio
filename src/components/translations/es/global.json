@@ -8,7 +8,7 @@
     "aboutCard.intro": "¡Hola a todos! Soy Carla Yamila Colom de Roldán, Santa Fe, Argentina",
     "aboutCard.education": "Graduada en Analista Programador y Desarrolladora Full Stack.",
     "aboutCard.passion": "Mi pasión por la programación se combina con un gran interés en abordar desafíos y crear soluciones innovadoras.",
-    "aboutCard.jobSeeking": "Actualmente estoy buscando mi primer trabajo en el campo de la tecnología, con el objetivo de unirme a un lugar donde pueda expandir mis conocimientos, adquirir nuevas habilidades y mejorar las que ya poseo. Soy una aprendiz rápida y me adaptaré fácilmente a las nuevas tecnologías.",
+    "aboutCard.jobSeeking": "Actualmente, trabajo de forma independiente para UltimaDevs, pero siempre estoy en búsqueda de oportunidades para expandir mis conocimientos en nuevos entornos. Soy una aprendiz rápida y me adapto fácilmente a nuevas tecnologías, con un compromiso constante hacia el aprendizaje y el crecimiento profesional.",
     "aboutCard.activities": "Aparte de programar, ¡algunas otras actividades que me encanta hacer!",
     "aboutCard.crafts": "Manualidades y diseño",
     "aboutCard.cooking": "Cocinar",
@@ -39,8 +39,9 @@
   "projects.ecoWiseDescription": "Este es un proyecto de grupo que realizamos en el Bootcamp de Henry, donde desarrollamos una plataforma de comercio electrónico que ofrece productos sostenibles, desde la concepción hasta la implementación. El proyecto abarcó aspectos de diseño, desarrollo Front-End y Back-End, incluyendo autenticación de terceros integrada, pasarela de pago (Mercado Pago), filtros combinados, Cloudinary, almacenamiento local, reseñas, favoritos, notificaciones por correo electrónico, eliminación suave, creación de nuevos productos, panel de administración, visualización de tarjetas de contenido, enrutamiento y el desarrollo de una base de datos relacional. De esta manera, creamos una interfaz atractiva y fácil de usar que destaca los valores de sostenibilidad. Las tecnologías utilizadas fueron Express.js, Sequelize.js, Node.js, PostgreSQL, React.js, Redux.js, Vite, JavaScript, HTML, CSS, Tailwind y Bootstrap.",
   "projects.EcomeTitle": "E-commerce",
   "projects.EcomeDescription": "La plataforma de comercio electrónico permite a los usuarios registrarse con su correo electrónico. Pueden explorar productos organizados en categorías, ver detalles como nombre, descripción, precio e imágenes, y agregar artículos a su carrito de compras. Ofrece un proceso de pago seguro e integración de pasarelas de pago. Los usuarios pueden gestionar sus pedidos y recibir notificaciones de envío. Tienen un perfil donde actualizan su información personal, direcciones y métodos de pago. También pueden dejar reseñas y calificaciones de productos. Los administradores disponen de un panel para gestionar productos, pedidos, usuarios y realizar análisis de ventas. El diseño responsivo asegura una experiencia óptima en dispositivos móviles y tabletas, utilizando React con Tailwind CSS para una interfaz atractiva y Redux para una gestión fluida del estado de la aplicación.",
-
-
+  "projects.FutbolTitle": "Portfolio Jugador de Futbol",
+  "projects.FutbolDescription": "He desarrollado un portafolio web con JavaScript, React y Tailwind CSS. El sitio incluye estadísticas actualizadas, características de habilidades, perfil biográfico, videos destacados y una galería de fotos. Este proyecto ofrece un diseño responsivo y una experiencia de usuario intuitiva.",
+  
   "resume.downloadCV": "Descargar CV",
 
   "navbar.home": "Inicio",
